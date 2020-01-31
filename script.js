@@ -1,5 +1,5 @@
 function nbrSeconde(number){
-   let calc = number*3154000700; // a voir encore
+   let calc = number*3154000700; // Not sure
    document.getElementById('result').textContent = calc
 }
 
@@ -19,19 +19,17 @@ function nbrJour(number){
 }
 
 function convert(number){
-
+   
    number = document.getElementById('age').value;
 
-   let value = 0;
+   for(i = 0; i < 4; i++){
 
-   for (i = 0; i < 4; i++) {
-
-      if (document.forms.formulaire.choix[i].checked == true) {
+      if(document.forms.form.choix[i].checked == true){
          value = i+1;
       }
    }
 
-   switch (value) {
+   switch (value){
       case 1:
          nbrSeconde(number);
       break;
