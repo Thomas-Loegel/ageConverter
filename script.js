@@ -1,21 +1,21 @@
 function nbrSeconde(number){
    let calc = number*3154000700; // a voir encore
-   let text = document.getElementById('result').textContent = calc
+   document.getElementById('result').textContent = calc
 }
 
 function nbrMinute(number){
    let calc = number*525600;
-   let text = document.getElementById('result').textContent = calc
+   document.getElementById('result').textContent = calc
 }
 
 function nbrHeure(number){
    let calc = number*(24*365);
-   let text = document.getElementById('result').textContent = calc
+   document.getElementById('result').textContent = calc
 }
 
 function nbrJour(number){
    let calc = number*365;
-   let text = document.getElementById('result').textContent = calc
+   document.getElementById('result').textContent = calc
 }
 
 function convert(number){
