@@ -1,5 +1,5 @@
 function nbrSeconde(number){
-   let calc = number*3154000700; // Not sure
+   let calc = number*31536000;
    document.getElementById('result').textContent = calc
 }
 
@@ -19,7 +19,7 @@ function nbrJour(number){
 }
 
 function convert(number){
-   
+
    number = document.getElementById('age').value;
 
    for(i = 0; i < 4; i++){
